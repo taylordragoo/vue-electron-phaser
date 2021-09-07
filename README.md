@@ -4,6 +4,8 @@
 
 ## Description
 
+Vue CoreUI free template paired up with Electron and Phaser 3. Displays Phaser game as a vue component inside the admin template.
+
 **NOTE:** Please remember to star this project to get new versions updates of this template.
 
 ### Installation

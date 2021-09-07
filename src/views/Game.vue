@@ -14,7 +14,7 @@ export default {
       initialize: true,
       game: {
         width: "100%",
-        height: "100%",
+        height: "80%",
         type: Phaser.AUTO,
         scene: {
           init: function() {
