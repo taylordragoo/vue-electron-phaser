@@ -4,13 +4,11 @@ import MainScene from '@/game/scenes/MainScene'
 
 function launch(containerId) {
     return new Phaser.Game({
-        type: Phaser.AUTO,
         width: 1600,
         height: 900,
-        scale: {
-            mode: Phaser.Scale.FIT,
-            autoCenter: Phaser.Scale.CENTER_BOTH,
-        },
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        mode: Phaser.Scale.FIT,
+        type: Phaser.AUTO,
         parent: containerId,
         physics: {
             default: 'arcade',

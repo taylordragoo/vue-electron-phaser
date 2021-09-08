@@ -13,8 +13,10 @@ export default {
     return {
       initialize: true,
       game: {
-        width: "100%",
-        height: "80%",
+        width: 1600,
+        height: 900,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        mode: Phaser.Scale.FIT,
         type: Phaser.AUTO,
         scene: {
           init: function() {
